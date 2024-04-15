@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100vh;
+}
+
+.login-error {
+  color: brown;
+  background-color: rgb(248, 220, 218);
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+
+.login-container {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.img-logo {
+  width: 80%;
+  margin-left: 33px;
+  margin-bottom: 20px;
+}
+.input {
+  margin-bottom: 15px;
+}
+
+.not-invoiced,
+.invoiced,
+.company-name,
+.not-delivered,
+.delivered {
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: inline-block;
+  max-width: fit-content;
+  font-size: 0.8rem;
+}
+
+.invoiced,
+.delivered {
+  background-color: rgb(26, 206, 134);
+}
+
+.not-invoiced,
+.not-delivered {
+  background-color: rgb(250, 57, 57);
+}
+.company-name {
+  background-color: rgb(106, 106, 243);
+}
+.sale-order {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.order-date {
+  color: blue;
+  text-decoration: underline;
+}
+.client-partner,
+.order-confirm {
+  font-size: 1.1rem;
+}
+.ati-total,
+.wt-total {
+  font-size: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+}
+
+#login {
+  margin-top: 15px;
+  background-color: #615dd2;
+  text-transform: none;
+}
+#copyright {
+  margin-top: 20;
+  color: rgb(125, 125, 125);
+}
+
+#date {
+  font-size: 1rem;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.status-and-total {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+#customer-info,
+#status {
+  display: flex;
+  float: right;
+}
+.customer-info-status {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  margin-top: -0.5rem;
+}
+#cardContainer:hover #arrow-dropdown {
+  cursor: pointer;
+  visibility: visible;
+}
+
+#arrow-dropdown:hover {
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+#arrow-dropdown {
+  visibility: hidden;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.not-found-message {
+  font-size: 1.5rem;
+  text-align: center;
+  color: grey;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+#address-textarea {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: gray;
+  border-radius: 8px;
+  resize: none;
+}
+
+#product-textfield {
+  width: 100%;
+  margin-top: 12;
+  font-family: Arial, Helvetica, sans-serif;
+}

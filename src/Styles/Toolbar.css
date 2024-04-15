@@ -1,0 +1,68 @@
+#add_btn,
+#refresh_btn,
+#back_btn,
+#save_btn,
+#edit_btn,
+#delete_btn {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 8px;
+  margin-right: 2px;
+  cursor: pointer;
+  padding: 2px;
+  color: gray;
+}
+
+#add_btn:hover,
+#refresh_btn:hover,
+#back_btn:hover,
+#save_btn:hover,
+#edit_btn:hover,
+#delete_btn:hover {
+  background-color: #f5f5f5;
+}
+
+#toolbar {
+  height: 40px;
+  background-color: white;
+}
+#appbar {
+  height: 45px;
+  background-color: transparent;
+  color: black;
+}
+#toolbar_content {
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+#toolbar_left {
+  display: flex;
+  justify-content: space-evenly;
+}
+#search {
+  height: 20px;
+}
+
+#viewType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 5px;
+  background-color: white;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  padding: 0px;
+  color: gray;
+}
+.icon:hover {
+  background-color: #f5f5f5;
+}
